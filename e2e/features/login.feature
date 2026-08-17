@@ -5,8 +5,9 @@ so that i can access the website
 
 Scenario: login with valid credentials
 Given I am on the login page
-When I enter valid username and password
-|Name|
-|muna|
+When I enter valid username
+|Name |
+|muna |
+|samir|
 
 Then the user logged in successfully and redirected to the home page
