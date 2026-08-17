@@ -1,0 +1,25 @@
+{
+  "name": "articlemgmt",
+  "version": "1.0.0",
+  "description": "testing",
+  "license": "ISC",
+  "author": "sagun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require 'e2e/**/*.ts' --format @cucumber/pretty-formatter e2e/features/**/*.feature"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^4.0.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "^17.4.2",
+    "playwright": "^1.62.1",
+    "tsx": "^4.23.12"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
