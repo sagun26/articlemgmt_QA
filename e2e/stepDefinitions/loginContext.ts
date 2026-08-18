@@ -3,7 +3,7 @@ import { expect } from "@playwright/test";
 
 Given("I am on the login page", async function () {
   // Add step action
-
+await this.page.goto('https://dailyworkreport.com');
   console.log("I am on the login page");
 });
 
